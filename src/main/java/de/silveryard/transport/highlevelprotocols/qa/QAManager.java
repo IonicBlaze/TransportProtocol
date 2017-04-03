@@ -1,16 +1,13 @@
-package de.awesome.smarthome.highlevelprotocols.qa;
+package de.silveryard.transport.highlevelprotocols.qa;
 
-import de.awesome.smarthome.transport.InvalidMessageException;
-import de.awesome.smarthome.transport.Message;
-import de.awesome.smarthome.transport.MessageHandler;
+import de.silveryard.transport.InvalidMessageException;
+import de.silveryard.transport.MessageHandler;
+import de.silveryard.transport.Message;
 
 import javax.xml.bind.DatatypeConverter;
 import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.function.Consumer;
-import java.util.function.Function;
 
 /**
  * Created by Beppo on 28.01.2017.

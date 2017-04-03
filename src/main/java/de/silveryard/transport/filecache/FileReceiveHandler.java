@@ -1,6 +1,6 @@
-package de.awesome.smarthome.filecache;
+package de.silveryard.transport.filecache;
 
-import de.awesome.smarthome.transport.Parameter;
+import de.silveryard.transport.Parameter;
 
 import java.util.List;
 

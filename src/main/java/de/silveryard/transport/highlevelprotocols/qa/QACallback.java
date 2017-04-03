@@ -1,4 +1,4 @@
-package de.awesome.smarthome.highlevelprotocols.qa;
+package de.silveryard.transport.highlevelprotocols.qa;
 
 /**
  * Created by Beppo on 28.01.2017.

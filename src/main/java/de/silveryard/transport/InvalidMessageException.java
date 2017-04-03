@@ -1,4 +1,4 @@
-package de.awesome.smarthome.transport;
+package de.silveryard.transport;
 
 /**
  * Created by chhofm on 12.01.2017.

@@ -1,4 +1,4 @@
-package de.awesome.smarthome.highlevelprotocols.event;
+package de.silveryard.transport.highlevelprotocols.event;
 
 /**
  * Created by Sebif on 29.03.2017.

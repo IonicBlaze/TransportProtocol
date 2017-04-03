@@ -1,4 +1,4 @@
-package de.awesome.smarthome.transport;
+package de.silveryard.transport;
 
 import java.nio.ByteBuffer;
 import java.util.Arrays;

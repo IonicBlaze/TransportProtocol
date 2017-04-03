@@ -1,6 +1,6 @@
-package de.awesome.smarthome.highlevelprotocols.event;
+package de.silveryard.transport.highlevelprotocols.event;
 
-import de.awesome.smarthome.transport.Parameter;
+import de.silveryard.transport.Parameter;
 
 import java.util.ArrayList;
 import java.util.HashMap;

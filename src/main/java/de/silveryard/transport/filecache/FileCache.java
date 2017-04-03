@@ -1,6 +1,9 @@
-package de.awesome.smarthome.filecache;
+package de.silveryard.transport.filecache;
 
+import de.silveryard.transport.MessageHandler;
+import de.silveryard.transport.Parameter;
 import de.awesome.smarthome.transport.*;
+import de.silveryard.transport.Message;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -9,7 +12,7 @@ import java.util.stream.Stream;
 /**
  * Created by CHofm on 14.01.2017.
  */
-public class FileCache implements  MessageHandler{
+public class FileCache implements MessageHandler {
 
     /**
      * MD5 -> de.awesome.smarthome.filecache.uploadstart

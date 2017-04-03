@@ -1,4 +1,4 @@
-package de.awesome.smarthome.transport;
+package de.silveryard.transport;
 
 import java.util.List;
 import java.util.Objects;

@@ -1,8 +1,8 @@
-package de.awesome.smarthome.highlevelprotocols.event;
+package de.silveryard.transport.highlevelprotocols.event;
 
-import de.awesome.smarthome.transport.InvalidMessageException;
-import de.awesome.smarthome.transport.Message;
-import de.awesome.smarthome.transport.Parameter;
+import de.silveryard.transport.InvalidMessageException;
+import de.silveryard.transport.Message;
+import de.silveryard.transport.Parameter;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,8 +1,6 @@
-package de.awesome.smarthome.transport;
+package de.silveryard.transport;
 
-import de.awesome.smarthome.filecache.BufferList;
-import de.awesome.smarthome.filecache.FileCache;
-import de.awesome.smarthome.filecache.FileReceiveHandler;
+import de.silveryard.transport.filecache.BufferList;
 
 import javax.xml.bind.DatatypeConverter;
 import java.io.*;
