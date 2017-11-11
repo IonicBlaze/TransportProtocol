@@ -4,6 +4,7 @@ buildscript {
     }
     dependencies {
         classpath 'org.ysb33r.gradle:doxygen:0.3'
+        classpath 'org.hibernate.build.gradle:gradle-maven-publish-auth:2.0.1'
     }
 }
 
@@ -11,12 +12,29 @@ apply plugin : 'org.ysb33r.doxygen'
 apply plugin: 'idea'
 apply plugin: 'java'
 apply plugin: 'maven'
+apply plugin: 'maven-publish'
+apply plugin: 'maven-publish-auth'
 
 group = 'de.silveryard'
 version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+}
+
+publishing {
+    publications {
+        Transport(MavenPublication) {
+            from components.java
+        }
+    }
+
+    repositories {
+        maven {
+            name "nexus-snapshots"
+            url "http://173.212.201.18:8081/repository/maven-snapshots/"
+        }
+    }
 }
 
 dependencies {
