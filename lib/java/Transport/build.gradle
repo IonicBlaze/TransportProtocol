@@ -31,8 +31,12 @@ publishing {
 
     repositories {
         maven {
+            credentials  {
+                username mavenUser
+                password mavenPassword
+            }
             name "nexus-snapshots"
-            url "http://173.212.201.18:8081/repository/maven-snapshots/"
+            url mavenRepoSnapshots
         }
     }
 }
